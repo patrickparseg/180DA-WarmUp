@@ -1,5 +1,6 @@
 #Used: https://code.likeagirl.io/finding-dominant-colour-on-an-image-b4e075f98097
 # ^for dominant color tutorial
+#My phone is more robust to brightness
 
 import cv2
 import numpy as np
