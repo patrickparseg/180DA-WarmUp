@@ -1,3 +1,7 @@
+#HSV was more effective for color matching.
+#Used: https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
+# ^ for bounding rectangle and contours
+
 import numpy as np
 import cv2
 
@@ -12,8 +16,8 @@ while(True):
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-    lower_color = np.array([40, 50, 50])
-    upper_color = np.array([80,255,255])
+    lower_color = np.array([30, 40, 40])
+    upper_color = np.array([90,255,255])
 
     mask = cv2.inRange(hsv, lower_color, upper_color)
 
