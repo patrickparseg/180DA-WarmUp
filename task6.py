@@ -1,4 +1,5 @@
 #HSV was more effective for color matching.
+#The brightness of my phone did not really affect the color matching
 #Used: https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
 # ^ for bounding rectangle and contours
 
