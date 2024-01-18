@@ -1,0 +1,12 @@
+Task 4
+1. Thresholding HSV was better and more accurate. I did a threshold range
+that was only for the specific color I wanted to track so the range was not
+too big.
+
+2. With the lighting condition change, I needed to adjust the threshold values
+to make sure the color was still recognized within the range.
+
+3. Changing the phone brightness did not change anything and the code was
+able to track the color regardless.
+
+4. The phone is more robust to brightness.
