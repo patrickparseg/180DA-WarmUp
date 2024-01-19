@@ -1,6 +1,8 @@
 Lab 2 Report
 
 Task 1:
+I implemented the publishing functionality within the subscriber script.
+
 MQTT allows us to implement a communication across a publicly available server.
 By specifying the topic, we can send messages within our group. 
 My partner and I were able to send messages both to ourselves and to each other
