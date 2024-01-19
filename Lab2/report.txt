@@ -7,8 +7,15 @@ MQTT allows us to implement a communication across a publicly available server.
 By specifying the topic, we can send messages within our group. 
 My partner and I were able to send messages both to ourselves and to each other
 with incremented counts. 
+The main difficulty with MQTT would be if there are plenty of publishers, there would be async issues to deal with when it comes
+to receiving messages.
 I would use a lag time of a few seconds since if there is another client publishing plenty of data,
 there could be race conditions.
 I think for our type of project where we will be using IoT MQTT would be an ideal option.
 
 Task 2:
+The speech recognition was able to distinguish between cat and dog well (see screenshot)
+The speech recognition was unable to distinguish between sound and found (see screenshot)
+The speech recognition kept following along for a lengthy page-long speech. Shortening the length of the phrase
+would make it easier for testing and error correction rather than having to go through a very long phrase.
+The speech recognition was able to work well in the lab because it set a minimum energy threshold to check for noise in the background.
