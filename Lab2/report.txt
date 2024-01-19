@@ -1,3 +1,12 @@
 Lab 2 Report
 
 Task 1:
+MQTT allows us to implement a communication across a publicly available server.
+By specifying the topic, we can send messages within our group. 
+My partner and I were able to send messages both to ourselves and to each other
+with incremented counts. 
+I would use a lag time of a few seconds since if there is another client publishing plenty of data,
+there could be race conditions.
+I think for our type of project where we will be using IoT MQTT would be an ideal option.
+
+Task 2:
