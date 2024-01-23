@@ -19,3 +19,11 @@ The speech recognition was unable to distinguish between sound and found (see sc
 The speech recognition kept following along for a lengthy page-long speech. Shortening the length of the phrase
 would make it easier for testing and error correction rather than having to go through a very long phrase.
 The speech recognition was able to work well in the lab because it set a minimum energy threshold to check for noise in the background.
+
+(a) With the given speech program, we will be able to detect users words as inputs. Since it is not very precise on similar sounding words, 
+we will need to fine tune it or rely on different sounding words.
+(b) Since we do not have a final project idea decided yet, it is hard to say. However, I believe the complexity is not necessary since we have the basic
+functionality working. We would just need to be able to filter out words that do not match user input.
+(c) I think a missed recognition would definitely hurt the progress of the game. I think we would need it to be pretty accurate and we could have the
+users input repeated so the user can confirm their statement.
+(d) I think we would need to test the speech recognition in different environments to make sure it is working well regardless of noise.
