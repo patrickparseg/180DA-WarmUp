@@ -56,7 +56,7 @@ def rps(player_choice, rps_bot_choice):
         else:
             win_message = "You Win!"
     
-    return win_message + " (Press SPACE to play again!)"
+    return win_message + " Press Space to play again..."
 
 def draw_choice_buttons():    
     rock_choice = Choice_Button("Rock (Press r)")
@@ -96,7 +96,7 @@ def draw_rps(player_choice, rps_bot_choice):
     screen.blit(text_surface, text_rect)
 
 
-    text = "VS"
+    text = "Vs."
     # Create a text surface and render the text on it
     text_surface = font.render(text, True, (0, 0, 0))
     # Position the text in the center of the button
@@ -140,7 +140,6 @@ rps_bot_choice = ""
 # Run until the user asks to quit
 running = True
 while running:
-    # Did the user click the window close button?
     for event in pygame.event.get():
         pressed_keys = pygame.key.get_pressed()
         if event.type == pygame.QUIT:
@@ -168,7 +167,6 @@ while running:
         rps_bot_choice = generate_bot_choice()
     else:
         draw_rps(player_choice, rps_bot_choice)
-        #choosing_mode = True
 
     # Flip the display
     pygame.display.flip()
