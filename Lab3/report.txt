@@ -1,0 +1,3 @@
+I think for our project we will be trying to implement the graphics of the game using unity, however, pygame 
+was a good introduction into the process. For our fighting style game, unity would give us more freedom into
+the 3D aspect of the game.
