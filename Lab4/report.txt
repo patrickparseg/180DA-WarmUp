@@ -1,0 +1,6 @@
+Task 3:
+    I think the best way would be to recognize any change the IMU
+    experiences. This way, messages are sent when there is a change in
+    direction etc. This will also reduce the number of messages, keeping
+    it less laggy. If there is a need for lag, we can add wait instructions.
+    
