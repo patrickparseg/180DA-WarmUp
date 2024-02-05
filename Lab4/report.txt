@@ -3,4 +3,9 @@ Task 3:
     experiences. This way, messages are sent when there is a change in
     direction etc. This will also reduce the number of messages, keeping
     it less laggy. If there is a need for lag, we can add wait instructions.
-    
+
+Task 4:
+    1. Yes, I can see the gravity acceleration when idle.
+    2. 
+    3.
+    4.
