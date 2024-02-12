@@ -6,6 +6,16 @@ Task 3:
 
 Task 4:
     1. Yes, I can see the gravity acceleration when idle.
-    2. 
-    3.
-    4.
+    2. Yes, the values drift even when idle. When idle the accelerometer values
+    for x is between -0.1-->0.1, y values are the same range and z values are 
+    between 0.9-->1.1. A good feature to classify idle vs. non idle would be to 
+    have a threshold correspond with the idle state.
+    3. I used the accelerometer to distinguish between two different motions, a 
+    forward movement and an upward movement. These movements were implemented by
+    analyzing the difference in linear acceleration and orientation. My sketch
+    checks for the threshold values for the idle state and checks x and z for either
+    forward or upward. 
+    4. I would need to add a few more features to complete these separations. 
+    Tracking circular motion would require the use of memory to compare and contrast.
+    An easier method would be to implement a history of instances for circular motion
+    so there isn't a need to check patterns.
